@@ -1,0 +1,35 @@
+/* styles.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.anime-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 8px;
+}
